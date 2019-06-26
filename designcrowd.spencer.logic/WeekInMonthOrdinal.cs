@@ -1,6 +1,5 @@
 namespace designcrowd.spencer.logic
 {
-
     public enum WeekInMonthOrdinal{
         First = 1,
         Second = 2, 

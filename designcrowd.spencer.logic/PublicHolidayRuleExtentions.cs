@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace designcrowd.spencer.logic 
+namespace designcrowd.spencer.logic
 {
     public static class Extensions
     {

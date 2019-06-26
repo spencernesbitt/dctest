@@ -1,7 +1,6 @@
+using designcrowd.spencer.logic;
 using System;
 using Xunit;
-using designcrowd.spencer.logic;
-using System.Collections.Generic;
 
 namespace designcrowd.spencer.tests
 {
