@@ -12,3 +12,4 @@ I incorporated the rule based Public Holiday functionality by overloading the **
 
 The starter code provided by the specification uses non-static members for the **BusinessDayCounter** class and there is no requirement to change these methods to static so I have left them as is. Given the end result does not require any instance members, I would tend to make these methods static in a 'real' situation.
 
+I have not provided a user interface as it was not requested in the specification and I was keen not to over engineer the solution and this can be a source of frustration for managers/leads. 

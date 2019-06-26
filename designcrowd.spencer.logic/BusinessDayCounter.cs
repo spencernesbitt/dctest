@@ -60,10 +60,12 @@ namespace designcrowd.spencer.logic
 
             DateTime current = firstDate.AddDays(1);
             int businessDays  = 0;
-            // convert to linq
+            
             while (current < secondDate){
-                if (current.DayOfWeek != DayOfWeek.Saturday && 
-                current.DayOfWeek != DayOfWeek.Sunday && (publicHolidays == null || !publicHolidays.Contains(current))
+                if (
+                    current.DayOfWeek != DayOfWeek.Saturday && 
+                    current.DayOfWeek != DayOfWeek.Sunday && 
+                    (publicHolidays == null || !publicHolidays.Contains(current))
                 )
                 {
                     businessDays ++; 

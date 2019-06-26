@@ -62,8 +62,6 @@ namespace designcrowd.spencer.tests
             };            
         }        
     }
-
-    //Add Test case for monday push
    
     public class BusinessDaysCounterTests
     {
